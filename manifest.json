@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "PTTB",
+  "version": "1.0",
+  "description": "Penetration Testing ToolBelt",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/beasts-32.png",
+    "default_title": "PTTB",
+    "default_popup": "popup/popup.html"
+  }
+}
